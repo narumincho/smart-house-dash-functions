@@ -1,0 +1,30 @@
+{
+  "name": "samrt-house-dash-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narumincho/samrt-house-dash-functions.git"
+  },
+  "author": "narumincho <narumincho.starfy@gmail.com> (https://narumincho.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narumincho/samrt-house-dash-functions/issues"
+  },
+  "homepage": "https://github.com/narumincho/samrt-house-dash-functions#readme",
+  "dependencies": {
+    "firebase-admin": "^8.9.0",
+    "firebase-functions": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.6",
+    "typescript": "^3.7.4"
+  },
+  "engines": {
+    "node": "10"
+  }
+}
