@@ -8,6 +8,6 @@ const dataCollection = firestore.collection("data");
 export const api = functions.https.onRequest((request, response) => {
   console.log("user-agent", request.headers["user-agent"]);
   console.log("body", request.body);
-  dataCollection.add(request.body);
+  dataCollection.doc(new Date().toISOString()).create(request.body);
   response.send("ok");
 });
